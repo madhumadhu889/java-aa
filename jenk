@@ -8,7 +8,7 @@ pipeline{
       stage('git scm'){
         steps{
             echo " download the repo into workspace"
-          git 'https://github.com/ganesh1246/maven-java-web-project.git'
+          git https://github.com/madhumadhu889/java-aa.git
         }
       }
     stage('package'){
