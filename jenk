@@ -1,8 +1,8 @@
 pipeline{
 
-  agent{
-      label 'madhu'
-  }
+  agent any
+      
+  
   stages{
 
       stage('git scm'){
